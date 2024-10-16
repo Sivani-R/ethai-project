@@ -1,0 +1,47 @@
+.container {
+    background-color: rgb(36, 51, 72);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
+
+.explore-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(25, 25,25, 0.8);
+    border: 1px solid #00bfff;
+    align-items: center;
+    padding: 30px;
+    width: 60%
+}
+
+.button {
+    background-color: rgb(224, 239, 239);
+    border-radius: 5px;
+    width: 110px;
+    border-width: 0px;
+    height: 30px;
+    
+}
+
+.dApp-text {
+    color:aqua;
+    background-color: transparent;
+}
+
+.para {
+    font-size: 12px !important;
+    color: rgb(169, 164, 164);
+    margin: 20px
+}
+
+
+.heading {
+    font-size: 35px;
+}

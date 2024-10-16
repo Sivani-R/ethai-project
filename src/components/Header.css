@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #58585b;
+    height: 5vh;
+  }
+  
+  .header-logo {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .header-nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .header-nav ul li {
+    margin-left: 1rem;
+  }
+  
+  .header-nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .whitepaper-btn {
+    background-color: #00f0f0;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border-width: 0px;
+    margin-left: 10px;
+  }
+
+  .login-btn {
+    border-width: 0px;
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,36 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/luxury-background-abstract-design_343694-2196.jpg?t=st=1729068079~exp=1729071679~hmac=7a368c0e756ae1172edb3f7c8694b0a47b303430404e0f09e00e63f69cbf04ae&w=1060');
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #e0e0e0;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: grey;
+  }
+  
+  .open-dapp-button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  span {
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+  }

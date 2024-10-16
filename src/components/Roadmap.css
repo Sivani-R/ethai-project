@@ -1,0 +1,68 @@
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+
+.phase1, .phase2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.text-content {
+  flex: 1;
+  padding: 20px;
+  color: #e0e0e0;
+}
+
+.phase-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phase-image img {
+  max-width: 95%;
+  height: 80%;
+}
+
+.phase1 .text-content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.phase2 .text-content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.phase-button {
+   border-radius: 2px;
+   background-color: white;
+   color: black;
+   border: 0px;
+   height: 20px;
+   width: 70px;
+   font-size: 10px;
+}
+.points {
+  font-size: 12px;
+  list-style-type: circle;
+}
+
+li {
+  padding-top: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

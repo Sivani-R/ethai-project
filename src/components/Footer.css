@@ -1,0 +1,108 @@
+/* Footer.css */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #0f121c;
+  color: #e0e0e0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.logo h2 {
+  margin: 0;
+  color: #8fd6ff; 
+  padding-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: 20px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+}
+
+.social-icons img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer blockquote {
+  font-size: 1.3em;
+  margin: 0 0 10px;
+  text-align: right;
+}
+
+.email-form {
+  display: flex;
+  align-items: center;
+}
+
+.email-form input {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #444;
+  background-color: #1f222b;
+  color: #e0e0e0;
+  margin-right: 10px;
+  width: 250px;
+  font-size: 1em;
+}
+
+.email-form input::placeholder {
+  color: #8a8a8a;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.email-form button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .footer-right {
+    align-items: center;
+  }
+
+  blockquote {
+    text-align: center;
+  }
+
+  .email-form {
+    justify-content: center;
+  }
+}
